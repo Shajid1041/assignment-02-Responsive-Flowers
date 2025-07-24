@@ -94,6 +94,10 @@ main{
     .nav-option ul{
         display: none;
     }
+    .banner{
+        flex-direction: column-reverse;
+        gap: 28px;
+    }
     
 }
 
