@@ -37,6 +37,10 @@ body{
 nav{
     height: 71px;
 }
+nav > img{
+    height: 100%;
+    width: auto;
+}
 
 nav ul ,
 .nav-option{
@@ -88,15 +92,23 @@ main{
 
 @media screen and (max-width:576px) {
     nav{
-        max-width: 360px;
-        height: 38px;
+        width: 90vmin;
     } 
     .nav-option ul{
         display: none;
     }
     .banner{
+
         flex-direction: column-reverse;
         gap: 28px;
+    }
+    .banner-info{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .banner-title{
+        font-size : 1.5rem;
+        line-height : 3rem;
     }
     
 }
