@@ -25,13 +25,19 @@ body{
     color: #E95A08;
 }
 
-
-/* shared style end */
-
 .big-screen-mx-width{
     max-width: 1140px;
     margin: 0 auto;
 }
+.regular-para-font{
+    color: rgba(0, 0, 0 , 0.5);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+/* shared style end */
+
+
 
 /* navbar style start */
 nav{
@@ -72,14 +78,47 @@ main{
     line-height: 5rem;
 }
 .banner-info p{
-    color: rgba(0, 0, 0 , 0.5);
-    font-size: 1.4rem;
-    font-weight: 400;
     margin-top: 13px;
 }
 
 /* banner style end */
 
+
+/* plants cart container style start */
+.plants-cart-container-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.plants-cart-container-description{
+    padding: 16px 126px 50px 126px;
+}
+.cart-container{
+    row-gap: 30px;
+}
+.cart > img {
+    margin-bottom: 30px;
+}
+.cart-name{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #111111;
+}
+.cart-price{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: #E95A08;
+    
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+/* plants cart container style end */
 
 
 
