@@ -21,7 +21,7 @@ body{
   font-style: normal;
 }
 
-.high-lighted-color{
+.high-lighted-color {
     color: #E95A08;
 }
 
@@ -91,6 +91,7 @@ main{
 }
 .plants-cart-container-description{
     padding: 16px 126px 50px 126px;
+    text-align: center;
 }
 
 .cart-container{
@@ -123,7 +124,101 @@ main{
 /* plants cart container style end */
 
 
+/* plant lover style start */
 
+.plants-lover{
+    margin-top: 228px;
+    gap: 120px;
+}
+
+.plants-lover-info{
+    width: 540px;
+    height: 521px;
+}
+.plants-lover-info ul{
+    margin-bottom: 20px;
+}
+.plants-lover-info ul > li{
+
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0, 0.5);   
+}
+.plants-lover-title{
+    font-size: 3rem;
+    margin-left: -30px;
+    margin-bottom: 20px;
+}
+/* plant lover style end */
+
+
+/* deals style start */
+.deals{
+    margin-top: 133px;
+    text-align: center;
+}
+
+.deals > h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.deals > p {
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0 , 0.5);
+    margin-top: 16px;
+    margin-bottom: 120px;
+}
+.dim-bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0 , 0.4);
+    border-radius: 14px;
+}
+.deals-box-container{
+    display: grid;
+    grid-template-columns: 366px 712px;
+    grid-template-rows: repeat(2,206px);
+    gap: 28px;
+    color: white;
+}
+.dim-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dim-bg a{
+    text-decoration: underline;
+}
+#deal-box1{
+    background-image: url(../images/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    border-radius: 14px;
+}
+#deal-box2{
+    background-image: url(../images/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 2;
+    border-radius: 14px
+}
+#deal-box3{
+    background-image: url(../images/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+    
+    
+}
+.deal-text-big{
+    font-size: 2.5rem;
+}
+.deal-link-big{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+/* deals style end */
 
 
 
@@ -142,6 +237,7 @@ main{
 
         flex-direction: column-reverse;
         gap: 28px;
+        margin-bottom: 65px;
     }
     .banner-info{
         margin-left: 16px;
@@ -151,6 +247,7 @@ main{
         font-size : 1.5rem;
         line-height : 3rem;
     }   
+   
     .plants-cart-container p{
         padding: 0;
         margin: 20px;
@@ -164,6 +261,33 @@ main{
         margin-right: 20px;
 
     }   
+    .plants-lover{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .plants-lover-info ul{
+        max-width:360px;
+        margin: 0 auto;
+        padding-left: 20px;
+        
+}
+    .plants-lover-title{
+        font-size: 1.5rem;
+        margin-left: 80px;
+    }
+    .deals{
+        max-width: 361px;
+        margin-left: 20px;
+    }
+    .deals-box-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 206px;
+        gap: 28px;
+
+    }
+
 }
 
 
