@@ -135,8 +135,8 @@ main{
 }
 
 .plants-lover-info{
-    width: 540px;
-    height: 521px;
+    max-width: 540px;
+    max-height: 521px;
 }
 .plants-lover-info ul{
     margin-bottom: 20px;
@@ -353,9 +353,12 @@ footer{
         margin-bottom: 140px;
     }
     .plants-lover-info ul{
-        max-width:360px;
-        margin: 0 auto;
-        padding-left: 20px;
+         max-width: 361px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 0.85rem;
+        
+        
         
 }
     .plants-lover-title{
@@ -364,8 +367,8 @@ footer{
         margin: 0 auto;
     }
     .deals{
-        max-width:360px;
-        margin: 0 auto;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .deals-box-container{
         
@@ -403,14 +406,16 @@ footer{
 }
 .footer-part{
     flex-direction: column;
-    max-width:360px;
-    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
     
 }
 
 .logo-text{
     font-size: 1rem;
     max-width: 361px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
