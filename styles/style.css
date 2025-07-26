@@ -196,16 +196,17 @@ main{
     border-radius: 14px;
 }
 #deal-box2{
+    background-image: url(../images/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+    grid-row: 2;
+}
+#deal-box3{
     background-image: url(../images/deal-zabo.png);
     background-repeat: no-repeat;
     background-size: cover;
     grid-row: span 2;
-    border-radius: 14px
-}
-#deal-box3{
-    background-image: url(../images/deal-ana.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 14px;
     
     
@@ -221,7 +222,69 @@ main{
 /* deals style end */
 
 
+/* join style  */
 
+.join-section{
+    background-image: url(../images/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+    padding-top: 195px;
+    padding-bottom: 195px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join-section > div > h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.input-field input{
+    background-color: white;
+    border: none;
+    width: 644px;
+    height: 50px;
+}
+.input-field button{
+    width: 186px;
+    height: 50px;
+    background-color: #E95A08;
+    color: white;
+}
+/* join style end */
+
+/* footer style start */
+
+footer{
+  
+  border-width: 20px 0 0 0  ;
+  border-color:rgba(255, 255, 255 ,0.5);
+    
+}
+.footer-part{
+ 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 100px;
+    
+}
+.menu1, 
+.menu2 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: space-between;
+    
+}
+.links img{
+    height: ;
+}
+/* footer style end */
 
 
 /* style for mobile device */
@@ -281,12 +344,40 @@ main{
         margin-left: 20px;
     }
     .deals-box-container{
+        
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 206px;
+        grid-template-columns: repeat(1 ,1fr);
         gap: 28px;
 
     }
+    .dim-bg > h2{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .dim-bg > a{
+        font-size: medium;
+    }
+    #deal-box3{
+        height: 206px;
+    }
+    .join-section{
+        padding-top: 110px;
+        padding-bottom: 65px;
+    }
+    .join-section > div > h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.input-field input{
+    width: 218px;
+    height: 50px;
+}
+.input-field button{
+    width: 103px;
+    height: 50px;
+}
+
 
 }
 
