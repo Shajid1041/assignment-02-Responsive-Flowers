@@ -360,7 +360,8 @@ footer{
 }
     .plants-lover-title{
         font-size: 1.5rem;
-        margin-left: 80px;
+        max-width:360px;
+        margin: 0 auto;
     }
     .deals{
         max-width:360px;
