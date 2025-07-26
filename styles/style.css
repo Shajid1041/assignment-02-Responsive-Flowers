@@ -85,6 +85,9 @@ main{
 
 
 /* plants cart container style start */
+.plants-cart-container{
+    margin-top: 100px;
+}
 .plants-cart-container-title{
     font-size: 3rem;
     font-weight: bold;
@@ -175,7 +178,7 @@ main{
 }
 .deals-box-container{
     display: grid;
-    grid-template-columns: 366px 712px;
+    grid-template-columns: 366px 746px;
     grid-template-rows: repeat(2,206px);
     gap: 28px;
     color: white;
@@ -249,6 +252,7 @@ main{
     border: none;
     width: 644px;
     height: 50px;
+    padding-left: 20px;
 }
 .input-field button{
     width: 186px;
@@ -267,22 +271,36 @@ footer{
     
 }
 .footer-part{
- 
+    justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 50px;
-    gap: 100px;
+    gap: 40px;
+    
+}
+.logo-text{
+    font-size: 1.5rem;
+    width: 410px;
+    color: rgb(0, 0, 0, 0.5);
+    gap: 20px;
     
 }
 .menu1, 
 .menu2 {
+    width: 200px;
     display: flex;
     flex-direction: column;
     gap: 32px;
     justify-content: space-between;
+    color: #6B7280;
+
+}
+.links{
+    gap: 24px;
     
 }
 .links img{
-    height: ;
+    height: 36px;
+    width: 36px;
 }
 /* footer style end */
 
@@ -340,8 +358,8 @@ footer{
         margin-left: 80px;
     }
     .deals{
-        max-width: 361px;
-        margin-left: 20px;
+        max-width:360px;
+        margin: 0 auto;
     }
     .deals-box-container{
         
@@ -377,6 +395,18 @@ footer{
     width: 103px;
     height: 50px;
 }
+.footer-part{
+    flex-direction: column;
+    max-width:360px;
+    margin: 0 auto;
+    
+}
+
+.logo-text{
+    font-size: 1rem;
+    max-width: 361px;
+}
+
 
 
 }
