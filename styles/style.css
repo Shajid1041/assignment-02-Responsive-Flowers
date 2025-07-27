@@ -308,6 +308,13 @@ footer{
 /* style for mobile device */
 
 @media screen and (max-width:576px) {
+    .banner-info > p,
+    .plants-cart-container-description,
+    .plants-lover-info > ul > li ,
+    .deals > p
+    {
+        font-size: 14px;
+    }
     nav{
         width: 90vmin;
     } 
@@ -332,7 +339,7 @@ footer{
     .plants-cart-container p{
         padding: 0;
         margin: 20px;
-        text-align: justify;
+        text-align: center;
 
     }
     .cart-container{
@@ -348,7 +355,9 @@ footer{
     }
     .plants-lover{
         flex-direction: column;
+        gap: 18px;
         margin-left: 20px;
+        margin-top: 40px;
         margin-right: 20px;
         margin-bottom: 140px;
     }
