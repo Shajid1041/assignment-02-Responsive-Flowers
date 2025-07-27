@@ -382,6 +382,12 @@ footer > .blar-top-overlap{
     .cart-container > div:nth-last-child(1){
         display: none;
     }
+    .cart-name{
+        font-size: 1rem;
+    }
+    .cart-price{
+        font-size: 1rem;
+    }
     .plants-lover{
         flex-direction: column;
         gap: 18px;
