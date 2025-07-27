@@ -131,20 +131,22 @@ main{
 
 .plants-lover{
     margin-top: 228px;
-    gap: 120px;
+    gap: 100px;
 }
 
 .plants-lover-info{
     max-width: 540px;
-    max-height: 521px;
+    max-height: auto;
 }
 .plants-lover-info ul{
+    
     margin-bottom: 20px;
 }
 .plants-lover-info ul > li{
-
     font-size: 1.4rem;
-    color: rgb(0, 0, 0, 0.5);   
+    color: rgb(0, 0, 0, 0.5); 
+    line-height: 1.8rem; 
+    margin-bottom: 20px; 
 }
 .plants-lover-title{
     font-size: 3rem;
@@ -152,6 +154,21 @@ main{
     margin-bottom: 20px;
 }
 /* plant lover style end */
+
+/* badge style start */
+.badge{
+    height: 286px;
+    width: 286px;
+    position: absolute;
+    left: 680px;
+    top: 2015px;
+}
+.badge > img {
+     /* animation style start */
+    animation-duration: 9s;
+    /* animation style end */
+}
+/* badge style end */
 
 
 /* deals style start */
@@ -169,6 +186,7 @@ main{
     color: rgba(0, 0, 0 , 0.5);
     margin-top: 16px;
     margin-bottom: 120px;
+    padding: 0 80px;
 }
 .dim-bg{
     width: 100%;
@@ -265,14 +283,18 @@ main{
 /* footer style start */
 
 footer{
+    box-shadow: 0px 0px 25px 20px white;
+}
+footer > .blar-top-overlap{
   
-  border-width: 20px 0 0 0  ;
-  border-color:rgba(255, 255, 255 ,0.5);
+  background-color: rgba(255, 255, 255,0.5);
+  position: relative;
+  top: -50px;
     
 }
 .footer-part{
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 50px;
     gap: 40px;
     
@@ -303,6 +325,12 @@ footer{
     width: 36px;
 }
 /* footer style end */
+
+
+
+
+
+
 
 
 /* style for mobile device */
@@ -365,11 +393,11 @@ footer{
          max-width: 361px;
         margin-left: 20px;
         margin-right: 20px;
-        font-size: 0.85rem;
-        
-        
-        
-}
+        font-size: 0.85rem;     
+    }
+    .plants-lover-info ul > li{
+        line-height: 1.5rem;
+    }
     .plants-lover-title{
         font-size: 1.5rem;
         max-width:360px;
@@ -378,6 +406,10 @@ footer{
     .deals{
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .deals > p{
+        padding: 0;
+        margin-bottom: 50px;
     }
     .deals-box-container{
         
@@ -425,6 +457,19 @@ footer{
     max-width: 361px;
     margin-left: 20px;
     margin-right: 20px;
+}
+footer{
+    box-shadow: none;
+}
+footer > .blar-top-overlap{
+  
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: 0px;
+    
+}
+.badge{
+    display: none;
 }
 
 
