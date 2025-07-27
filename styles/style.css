@@ -160,8 +160,9 @@ main{
     height: 286px;
     width: 286px;
     position: absolute;
-    left: 680px;
+    left: 460px;
     top: 2015px;
+    
 }
 .badge > img {
      /* animation style start */
@@ -454,9 +455,8 @@ footer > .blar-top-overlap{
 
 .logo-text{
     font-size: 1rem;
-    max-width: 361px;
-    margin-left: 20px;
-    margin-right: 20px;
+    max-width: 321px;
+    
 }
 footer{
     box-shadow: none;
